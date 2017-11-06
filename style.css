@@ -1,0 +1,159 @@
+body {
+  margin-top: 40px;
+  min-width: 700px;
+}
+.visible {
+  opacity: 1;
+}
+hidden {
+  opacity: 0;
+}
+#footer {
+  text-align: center;
+  width: 100%;
+  font-family: Myriad Pro Regular;
+  padding-top: 5px;
+}
+.show {
+  visibility: show;
+}
+.typo {
+  background: url(../img/optical.png) 50% 0 no-repeat fixed;
+}
+.legos {
+  position: absolute;
+  margin-left: 10px;
+}
+#home-button:hover {
+  cursor: hand;
+}
+.negative {
+  background: url(../img/optical-negative.png) 50% 0 no-repeat fixed;
+}
+.home {
+  background: url(../img/torn-bg.jpg) bottom no-repeat;
+  height: 1000px;
+  background-color: #00BFFF;
+}
+#piece {
+  background: url(../img/3x2.png) bottom no-repeat;
+  height: 900px;
+}
+#lego {
+  background-color: 00BFFF;
+  background: url(../img/legos/bg.png) bottom no-repeat;
+  height: 900px;
+  box-shadow: 0px 15px 15px #aaa;
+}
+.left-section {
+  width: 50%;
+  float: left;
+  height: 100%;
+  margin: 0;
+}
+#logo {
+  float: right;
+  margin: 10px 10px 0 0;
+  padding: 5px 10px
+	height: 150px;
+  width: 150px;
+}
+.right-section {
+  float: right;
+  width: 50%;
+}
+h1 {
+  margin-top: 60px;
+}
+hr {
+  height: 1px;
+  background-color: #3A3D3C;
+  margin: 0;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  display: inline-block;
+  font-family: Lato-Heavy;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+#header {
+  width: 95%;
+  margin-top: 20px;
+  height: 150px;
+  vertical-align: center;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+#video {
+  background-color: black;
+}
+#blurred-text {
+  background: url(../img/optical-blur.png) 50% 0 no-repeat fixed;
+  height: 800px;
+  margin-top: 3px;
+}
+#denim {
+  background: url(../img/denim-bg.jpg) 50% 0 no-repeat fixed;
+  height: 900px;
+}
+#text {
+  height: 800px;
+}
+#iphone {
+  background: url(../img/iphone.png) no-repeat top center;
+  height: 800px;
+  width: 100%;
+  background-size: 90% auto;
+}
+#blurred-text2 {
+  background: url(../img/optical-blur.png) 50% 0 no-repeat fixed;
+  height: 600px;
+}
+.home-page {
+  height: 620px;
+}
+li {
+  margin-left: -200px;
+  height: 800px;
+}
+#insta {
+  margin-left: 460px;
+  margin-top: 350px;
+}
+#fb {
+  margin-left: 1250px;
+  margin-top: 350px;
+}
+#li {
+  margin-left: 100px;
+  margin-top: 350px;
+}
+#social-closet {
+  width: 100%;
+  overflow: hidden;
+}
+.page {
+  height: 800px;
+}
+#mail {
+  margin-left: 800px;
+  margin-top: 350px;
+}
+#fb-likes {
+  color: #414EA0;
+  margin-left: 1470px;
+  width: 100px;
+  margin-top: 600px;
+}
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Myriad Pro Regular'), url('../fonts/MYRIADPRO-REGULAR.woff') format('woff');
+}
